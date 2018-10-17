@@ -63,6 +63,7 @@ class CellarAddForm extends Component {
              console.log(newCellarData);
            });
          });
+         window.location.reload()
         }
 
 
