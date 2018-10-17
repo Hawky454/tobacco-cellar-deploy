@@ -61,7 +61,6 @@ class PipesAddForm extends Component {
             console.log(newPipeData);
           });
         });
-        window.location.reload();
      }
 
 
