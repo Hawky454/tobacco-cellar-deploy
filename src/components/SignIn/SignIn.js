@@ -9,12 +9,11 @@ const AUTH_URL = `${API_URL}/api/users/login/`;
 
 function getHostURL() {
   if(window.location.host.indexOf('localhost') !== -1) {
-    return 'http://localhost:8000';
+    return 'http://localhost:5000';
   } else {
-    return 'https://capstone-server-tobac-app.herokuapp.com';
+    return 'https://tobacco-cellar-server.herokuapp.com';
   }
 }
-
 
 
 
