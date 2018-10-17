@@ -1,0 +1,93 @@
+/* background options: ../../assets/my-pipes.jpg 
+   background images and patterns are better suited to the index.css                 
+*/
+
+.Home {
+    margin: 275px 165px;
+}
+
+.Home .container {
+    display: flex;
+}
+
+.card1 {
+    width: 350px;
+    height: 350px;
+    border: 3px solid black;
+    /* border-radius: 5px; */
+    box-shadow: 5px 10px 8px #888888;
+    margin: auto;
+    background: url('../../assets/four-pipes.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-width: 25vw;
+    min-height: 25vh;
+
+}
+
+.card2 {
+    width: 350px;
+    height: 350px;
+    border: 3px solid black;
+    /* border-radius: 5px; */
+    box-shadow: 5px 10px 8px #888888;
+    margin: auto;
+    background: url('../../assets/my-pipes.jpg') center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-width: 25vw;
+    min-height: 25vh;
+}
+
+.card3 {
+    width: 350px;
+    height: 350px;
+    border: 3px solid black;
+    /* border-radius: 5px; */
+    box-shadow: 5px 10px 8px #888888;
+    margin: auto;
+    background: url('../../assets/pipe-tobacco.jpg') center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-width: 25vw;
+    min-height: 25vh;
+}
+
+.rectangleTop {
+    width: 1100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 5px 10px 8px #888888;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    background: url('../../assets/upfeathers.png');
+    text-align: center;
+}
+.rectangleBottom {
+    width: 1100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 5px 10px 8px #888888;
+    margin-top: 20px;
+    margin-left: 5px;
+    background: url('../../assets/upfeathers.png');
+    text-align: center;
+}
+
+.Home p {
+  margin-top: 35px;
+  font-size: 30px;
+}
+
+

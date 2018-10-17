@@ -1,0 +1,56 @@
+
+.PipeList {
+    margin-bottom: 15px;
+}
+
+.PipeList ul{
+    list-style: none;
+}
+
+.pipesImage {
+    box-shadow: 4px 4px 10px;
+    margin-top: 22px;
+    width: 300px;
+    height: 200px;
+    margin-left: 44px;
+    border-radius: 2px;
+
+}
+
+.container {
+    display: flex;
+    border: 1px solid grey;
+    width: 750px;
+    margin: auto;
+    box-shadow: 4px 4px 10px;
+    background-color:  rgba(255, 250, 240, 0.7);
+    color: black;
+    letter-spacing: 1px;
+}
+
+.pipesImage:hover {
+    transform: scale(0.98);
+}
+
+.btnContainer {
+   display: flex;
+   flex-direction: column;
+   justify-content: right;
+   margin: auto;
+}
+
+.PipeList button {
+    height: 40px;
+    width: 100px;
+    margin-left: 20px;
+    background-color: inherit;
+    border: 1px solid black;
+    font-family: 'Cormorant Unicase', serif;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.PipeList button:hover {
+    background-color: #f7f7df;
+    transform: scale(.95);
+}

@@ -1,0 +1,33 @@
+.NavBar {
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-size: 34px;
+    letter-spacing: 1px;
+    border: 2px solid black;
+}
+
+.left {
+    float: left;
+    display: block;
+    color: #f7f7df;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.right {
+    float: right;
+    display: block;
+    color: #f7f7df;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+span:hover {
+    background: #f7f7df;
+    color: black;
+}
+
