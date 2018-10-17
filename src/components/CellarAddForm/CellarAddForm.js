@@ -135,7 +135,7 @@ class CellarAddForm extends Component {
                     <input type="text" ref="rating" value={this.state.rating} onChange={this.handleChange} className="form-control" placeholder="Rating (1 - 5)" name="rating"/>
                   </section>
                 </section>
-                <button onClick={this.addTobacco} type="submit" className="btn btn-primary"><Link to="/CellarList" style={myBtn} >Add Blend!</Link></button>
+                <button onClick={this.addTobacco} type="submit" className="btn btn-primary">Add Blend!</button>
               </section>
             </form>
           </div>
