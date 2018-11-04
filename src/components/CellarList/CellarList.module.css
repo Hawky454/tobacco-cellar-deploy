@@ -1,25 +1,27 @@
 /* //! Listen very carefully, the css for the cards displayed on the page is all taking affect in the Cellar.css not this one (CellarList.css)  */
 
 .CellarList {
-    margin-top: 150px;
-    margin-bottom: 50px;
+  margin-top: 150px;
+  margin-bottom: 50px;
 }
 
 .btnContainer {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
 .btn {
-   height: 60px; 
-   width: 150px;
-   border: 1px solid black;
-   border-radius: 5px;
-   background-color: transparent;
+  height: 60px;
+  width: 150px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: transparent;
+  outline: none;
 }
 
 .btn:hover {
-    color: red;
-    border: 1px solid red;
+  color: blue;
+  border: 1px solid blue;
+  outline: none;
 }
